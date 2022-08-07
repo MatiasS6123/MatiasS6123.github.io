@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F3F5FC;
+}
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 7px;
+}
+
+.logo{
+    width:100%;
+    float: left;
+}
+.logoimg{
+    margin-top:1% ;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.titulo{
+    margin-left: 15%;
+    float: inherit;
+    
+}
+.isquierda{
+    float: left;
+    width: 70%;
+    height: 60%;
+    border-radius: 24px;
+    
+    
+
+}
+.derecha{
+    width: 30%;
+    height: auto;
+    float: right;
+    border-radius:20px ;
+    background-color: #FFFFFF;
+    
+
+}
+
+.input-text{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    background: #F3F5FC;
+    outline: none;
+    border: none;
+    font-size: 20px;
+
+}
+
+.logo-derecho{
+    width: 90%;
+    height: auto;
+    margin-top:20% ;
+    margin-left: 2%;
+    
+}
+.texto-area{
+    margin: 0 5% 0 7%;
+}
+
+.texto-texarea{
+    float: left;
+    margin-left: 10%;
+    color:#0A3871;
+    width: 80%;
+    height: 60%;
+    border:none;
+    outline: none;
+    font-size: 15px;
+}
+
+
+.boton-isquierdo{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius:20px ;
+   
+}
+
+.btn-encriptar{
+    padding: 24px;
+    margin-left: 15%;
+    width: 30%;
+    height: 60%;
+    border-radius: 30px;
+    background-color: #0A3871;
+
+
+}
+.btn-desencriptar{
+    padding: 24px;
+    margin-left: 10%;
+    width: 30%;
+    height: 60%;
+    border-radius: 30px;
+    background-color: #D8DFE8;
+}
+
+.copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    display: none;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+}
+
+h2{
+    text-align: center;
+}

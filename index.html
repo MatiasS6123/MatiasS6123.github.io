@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Encriptador Alura</title>
+
+    <body>
+
+        <div class="container">
+        <div class="logo">
+            <img class="logoimg" src="logo.png">
+            <h1 class="titulo">Encriptador de mensaje</h1>
+            
+        </div>
+        <div class="isquierda">
+            <input class="input-text" type="text" name="input-text" id="inputtext" placeholder="Ingrese el texto aqui">
+        </div>
+        <div class="derecha">
+            <img src="muneco.png" class="logo-derecho" id="logo-derecho">
+            <h1 class="texto-area" id="texto-area">Ningún mensaje fue encontrado</h1>
+            <textarea class="texto-texarea" id="texto-texarea">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+            <button type="button" class="copiar" id="copiar"  onclick="copiar()">¡Copiar!</button>
+        </div>
+        <div class="boton-isquierdo">
+            <p>Sólo letra minusculas y sin acento</p>
+            <button type="button" class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" class="btn-desencriptar" onclick="desencriptar()" >desencriptar!</button>
+        </div>
+        </div>
+
+    
+
+        <footer>
+            <h2>Desafio realizado por Matias Molina </h2>
+        </footer>
+        
+
+
+
+    </body>
+
+</html>
